@@ -1,16 +1,10 @@
 import React from 'react'
 import "./App.css"
 
-const Home = ( { users, assets } ) => {
+const Home = ( { restaurants } ) => {
  
-
-let sum = 0  
-assets.map((asset) => {
-  sum+=asset.estimated_value
-  return sum
-})
-
- const user = users.find((user) => user.id === 1)
+// const restaurant = restaurants.map((restaurant) => { })
+//  const user = users.find((user) => user.id === 1)
 
   return (
     <div className="App">
@@ -20,10 +14,10 @@ assets.map((asset) => {
       </h1>
     </header>
     <body>
-      <h2>Welcome {user.first_name}</h2>
+      <h2>Welcome </h2>
       <h3>Your current networth</h3>
       <div>
-        <h1>${sum}</h1>
+        <h1>hi</h1>
       </div>
     </body>
   </div>
