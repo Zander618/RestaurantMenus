@@ -10,7 +10,7 @@ const App = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:9292/restaurant/2")
+    fetch("http://localhost:9292/restaurant")
     .then((resp) => resp.json())
     .then((data) => {
       console.log(data)
